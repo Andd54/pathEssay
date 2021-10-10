@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex paper"] 1632887035 "paper.aux" "paper.bbl" "paper" 1633824784
+["bibtex paper"] 1632887035 "paper.aux" "paper.bbl" "paper" 1633826037
   "E:/mikTex/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
   "cite.bib" 1632650702 1562 591038875e4874cca275c4018f9aee5c ""
-  "paper.aux" 1632887042 2972 44c89bd84d1a24260f87211882fe4425 "pdflatex"
+  "paper.aux" 1633826036 2972 44c89bd84d1a24260f87211882fe4425 "pdflatex"
   (generated)
   "paper.blg"
   "paper.bbl"
-["pdflatex"] 1632887037 "e:/desktop/ETH/FinalPaperLaTeX/FinalPaper(nonEssay)/paper.tex" "paper.pdf" "paper" 1633824784
+["pdflatex"] 1633826034 "e:/desktop/ETH/FinalPaperLaTeX/FinalPaper(nonEssay)/paper.tex" "paper.pdf" "paper" 1633826037
   "C:/Users/Anderson Wang/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1632655028 9698925 0b4df817f0e5634e7532bf4a83e1ee12 ""
   "C:/Users/Anderson Wang/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1632655286 82507 a9eef8696c92627b87e9975edea03b2a ""
   "E:/mikTex/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -124,16 +124,16 @@
   "E:/mikTex/tex/latex/tools/xspace.sty" 1622550326 4545 d84d0b20a11b9c36c6ecf45697be591c ""
   "E:/mikTex/tex/latex/ulem/ulem.sty" 1578651445 15682 94f55b803e160cf7fb6e4d77d07cfe1d ""
   "E:/mikTex/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "e:/desktop/ETH/FinalPaperLaTeX/FinalPaper(nonEssay)/paper.tex" 1633770570 14412 46e4b242fc837954807caccb4a70346b ""
+  "e:/desktop/ETH/FinalPaperLaTeX/FinalPaper(nonEssay)/paper.tex" 1633826033 13954 e5436bc2afedac8199f4b50e64dc0f7b ""
   "efficiency.png" 1632650659 142338 05bdf66bf3b22b2a940889a996e3c083 ""
   "entities.jpg" 1632650663 35239 fb6f1ace81a1d61670d6dc5759eee8ae ""
-  "paper.aux" 1632887042 2972 44c89bd84d1a24260f87211882fe4425 "pdflatex"
+  "paper.aux" 1633826036 2972 44c89bd84d1a24260f87211882fe4425 "pdflatex"
   "paper.bbl" 1632887036 2357 0ff8ddac1773153e804edc60d3b871ee "bibtex paper"
-  "paper.out" 1632887042 1083 a0318c954d1e73ea011c05ff1b2922c3 "pdflatex"
-  "paper.tex" 1633770570 14412 46e4b242fc837954807caccb4a70346b ""
+  "paper.out" 1633826036 1083 a0318c954d1e73ea011c05ff1b2922c3 "pdflatex"
+  "paper.tex" 1633826033 13954 e5436bc2afedac8199f4b50e64dc0f7b ""
   "tiers.png" 1632650665 143196 e3cd836522edcf34371e0001014dffc9 ""
   (generated)
+  "paper.aux"
+  "paper.log"
   "paper.pdf"
   "paper.out"
-  "paper.log"
-  "paper.aux"
