@@ -8,6 +8,7 @@
 \usepackage{times}
 \usepackage{cite}
 \usepackage{amsmath}
+\usepackage{multicol}
 \usepackage{graphicx}
 \usepackage[normalem]{ulem}
 \usepackage{fancyhdr,graphicx,amsmath,amssymb, mathtools, scrextend, titlesec, enumitem}
@@ -41,16 +42,13 @@
 %
 
 \begin{abstract}
-Although the supply chains have been developing at a fast pace recently. 
-The United States is still facing some supply chain chaos such as the aspects with product shipment to US, companies
-which try to fill orders and consumer demands increase as covid restriction lifts. There are vast areas in which the process can
- be improved. Implementing blockchain related technology with respect to supply chain management allows the product to be tracked, in the order lifecycle, from the beginning to the end, which enable the transparency and efficacy of the management system. The supply chain process includes four different steps: planning and managing the resources needed to meet customer’s demand, choosing supplier to provide goods and services or establishing processes to monitor supplier relationship, organizing activities required to manufacture vehicle, and delivery of orders to customers/car retails. The designed blockchain model includes 2nd tier supplier, 1st tier supplier, warehouses, manufacturer, car maintenance, and car dealership. Using blockchain to manage the supply chain system has several advantages including but not limiting to increase the traceability of the material needed, lower losses from gray market trading and reduce paperwork and administrative cost.
+Although the supply chains have been developing at a fast pace recently. The United States is still facing some supply chain chaos such as the aspects with product shipment to US, companies which try to fill orders and consumer demands increase as covid restriction lifts. There are vast areas in which the process can be improved. Implementing blockchain related technology with respect to supply chain management allows the product to be tracked, in the order lifecycle, from the beginning to the end, which enable the transparency and efficacy of the management system. The supply chain process includes four different steps: planning and managing the resources needed to meet customer’s demand, choosing supplier to provide goods and services or establishing processes to monitor supplier relationship, organizing activities required to manufacture vehicle, and delivery of orders to customers/car retails. The designed blockchain model includes 2nd tier supplier, 1st tier supplier, warehouses, manufacturer, car maintenance, and car dealership. Using blockchain to manage the supply chain system has several advantages including but not limiting to increase the traceability of the material needed, lower losses from gray market trading and reduce paperwork and administrative cost.
 \end{abstract}
 
 %
 
 \section{Introduction}
-Automobile manufacturing and management has a gigantic business volume in the US, and it supports numerous employment and GDP in the country.\newline For example, average cars usually have 3000 individual parts. The communication between different parts of the supply chain is important with respect to the production, sells, and customer satisfaction. However, there are several inefficiency and risks with respect to the current supply chain system which includes lack of transparency\cite{choudhurry_2020}, less of 30 percent regard their supply chain as effective, different regulations in different country, and stringent industry standards. This project is looking for a solution for the preceding problems by updating the data on blockchain that is visible among all the parties. By doing so, the barrier between each country has suddenly disappear and the transparency can be largely enhanced. When the goods are transported from one country to another, the data has instantaneously update to the block chain. The blockchain system enhance the product reliability by incorporate an auditor who can audit the information from the blockchain to verify if it is correct. When an certain products shows some faults, the blockchain can locate the position of the problem and fix it in a faster speed.
+Automobile manufacturing and management has a gigantic business volume in the US, and it supports numerous employment and GDP in the country. For example, average cars usually have 3000 individual parts. The communication between different parts of the supply chain is important with respect to the production, sells, and customer satisfaction. However, there are several inefficiency and risks with respect to the current supply chain system which includes lack of transparency\cite{choudhurry_2020}, less of 30 percent regard their supply chain as effective, different regulations in different country, and stringent industry standards. This project is looking for a solution for the preceding problems by updating the data on blockchain that is visible among all the parties. By doing so, the barrier between each country has suddenly disappear and the transparency can be largely enhanced. When the goods are transported from one country to another, the data has instantaneously update to the block chain. The blockchain system enhance the product reliability by incorporate an auditor who can audit the information from the blockchain to verify if it is correct. When an certain products shows some faults, the blockchain can locate the position of the problem and fix it in a faster speed.
 
 %
 
@@ -98,12 +96,12 @@ In this part, we elaborate on the process of implementation and the contract cod
 
 \subsection{Entity}
 There are 8 entity roles in the system, namely
-\begin{enumerate}[label=\alph*.]
+\begin{enumerate}
     \item Customer
     \item Dealership
     \item Distributor
     \item Investor
-    \item Manufacture
+    \item Manufacturer
     \item Service
     \item Supervisor
     \item Supplier
